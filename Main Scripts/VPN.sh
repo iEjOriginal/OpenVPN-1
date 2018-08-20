@@ -30,7 +30,7 @@ do
             ;;
 	    "PIA")
             echo "Running PIA"
-				wget -O Pure.sh https://raw.githubusercontent.com/liamkenyon/OpenVPN/master/PIA_VPN/PIA.sh && sed -i "s/uuuu/$USERNAME/g" Pure.sh && sed -i "s/pppp/$PASSWORD/g" PIA.sh && chmod +x PIA.sh && ./PIA.sh				
+				wget -O PIA.sh https://raw.githubusercontent.com/liamkenyon/OpenVPN/master/PIA_VPN/PIA.sh && sed -i "s/uuuu/$USERNAME/g" Pure.sh && sed -i "s/pppp/$PASSWORD/g" PIA.sh && chmod +x PIA.sh && ./PIA.sh				
             ;;
         "Quit")
             break
