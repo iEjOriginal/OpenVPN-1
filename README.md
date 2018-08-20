@@ -11,3 +11,5 @@ Once password is updated copy all the text and past in talnet/putty and click en
 VPN book change there password on a monthly basis go here to get the password https://www.vpnbook.com/freevpn and change to latest password and re run script.
 
 Please note as this is a free VPN service connections are not always reliable.
+
+Credit: DaveSayers - https://github.com/davesayers2014/OpenVPN
