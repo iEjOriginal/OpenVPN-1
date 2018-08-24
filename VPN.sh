@@ -1,5 +1,5 @@
-USERNAME='vpnbook'
-PASSWORD='5grtx8k'
+USERNAME='USERNAME'
+PASSWORD='PASSWORD'
 ###############################################################
 # Standard Config
 # If you change anything below this line, it probably wont 
