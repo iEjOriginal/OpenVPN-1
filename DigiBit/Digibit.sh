@@ -20,12 +20,12 @@ mkdir -p /hdd/Digibit
 #Download and install VPN Changer
 echo "downloading VPN Changer"
 echo $LINE
-cd /var && cd /var/volatile && cd /var/volatile/tmp && wget -O /var/volatile/tmp/enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk "https://github.com/liamkenyon/OpenVPN/blob/master/enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk?raw=true" &> /dev/null 2>&1
+cd /var && cd /var/volatile && cd /var/volatile/tmp && wget -O /var/volatile/tmp/enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk "https://github.com/INUI-Dev/OpenVPN/blob/master/enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk?raw=true" &> /dev/null 2>&1
 echo "Installing VPN Changer"
 echo $LINE
 opkg --force-reinstall --force-overwrite install enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk &> /dev/null 2>&1
 cd
-wget -O /usr/lib/enigma2/python/Plugins/Extensions/VpnChanger/plugin.py "https://raw.githubusercontent.com/liamkenyon/OpenVPN/master/DigiBit/plugin.py" &> /dev/null 2>&1
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/VpnChanger/plugin.py "https://raw.githubusercontent.com/INUI-Dev/OpenVPN/master/DigiBit/plugin.py" &> /dev/null 2>&1
 
 #Install OpenVPN
 echo "Installing OpenVPN"
@@ -36,7 +36,7 @@ opkg --force-reinstall --force-overwrite install openvpn &> /dev/null 2>&1
 #Install OpenVPN
 echo "Downloading OpenVPN Configs"
 echo $LINE
-wget -O /tmp/auth.txt "https://raw.githubusercontent.com/liamkenyon/OpenVPN/master/NordVPN/password.conf" &> /dev/null 2>&1
+wget -O /tmp/auth.txt "https://raw.githubusercontent.com/INUI-Dev/OpenVPN/master/NordVPN/password.conf" &> /dev/null 2>&1
 wget -O /hdd/Digibit/Digibit.zip "http://digibitdesign.com/certs/Certificates.zip" &> /dev/null 2>&1
 
 #Configure OpenVPN
