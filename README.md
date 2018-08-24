@@ -2,6 +2,6 @@
 
 A small guide to installing OpenVPN on Engima2.
 
-Copy all the text form here https://github.com/INUI-Dev/OpenVPN/blob/master/VPN.sh and paste in notepad.
+Copy all the text form the output of the generator and paste in putty while connected to your Enigma2 device.
 
 Generator: https://inui.xyz/generator 
