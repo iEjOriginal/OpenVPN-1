@@ -23,7 +23,7 @@ from Components.Pixmap import Pixmap
 from Components.AVSwitch import AVSwitch
 
 
-PLUGINVERSION = "1.1.0"
+PLUGINVERSION = "1.2.9"
 
 IPCHECK = 'https://www.wieistmeineip.de/'
 # 50x33 Default png
