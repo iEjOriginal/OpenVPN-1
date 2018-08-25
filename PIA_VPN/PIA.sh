@@ -21,10 +21,10 @@ mkdir -p /hdd/PIA_VPN
 # Download and install VPN Changer
 echo "downloading VPN Changer"
 echo $LINE
-cd /var && cd /var/volatile && cd /var/volatile/tmp && wget -O /var/volatile/tmp/enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk "https://github.com/INUI-Dev/OpenVPN/blob/master/enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk?raw=true" &> /dev/null 2>&1
+cd /var && cd /var/volatile && cd /var/volatile/tmp && wget -O /var/volatile/tmp/enigma2-plugin-extensions-vpnchanger_1.2.9_all.ipk "https://github.com/INUI-Dev/OpenVPN/blob/master/enigma2-plugin-extensions-vpnchanger_1.2.9_all.ipk?raw=true" &> /dev/null 2>&1
 echo "Installing VPN Changer"
 echo $LINE
-opkg --force-reinstall --force-overwrite install enigma2-plugin-extensions-vpnchanger_1.1.0_all.ipk &> /dev/null 2>&1
+opkg --force-reinstall --force-overwrite install enigma2-plugin-extensions-vpnchanger_1.2.9_all.ipk &> /dev/null 2>&1
 cd
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/VpnChanger/plugin.py "https://raw.githubusercontent.com/INUI-Dev/OpenVPN/master/PIA_VPN/plugin.py" &> /dev/null 2>&1
 
