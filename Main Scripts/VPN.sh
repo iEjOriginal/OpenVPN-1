@@ -8,7 +8,7 @@ PASSWORD='PPPP'
 #!/bin/bash
 # Bash Menu Script Test
 PS3='Please enter your choice: '
-options=("Nord VPN" "IP Vanish" "Digibit" "PureVPN" "PIA" "Quit")
+options=("Nord VPN" "IP Vanish" "Digibit" "PureVPN" "PIA" "ExpressVPN" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -31,6 +31,10 @@ do
 	    "PIA")
             echo "Running PIA"
 				wget -O PIA.sh https://raw.githubusercontent.com/liamkenyon/OpenVPN/master/PIA_VPN/PIA.sh && sed -i "s/uuuu/$USERNAME/g" PIA.sh && sed -i "s/pppp/$PASSWORD/g" PIA.sh && chmod +x PIA.sh && ./PIA.sh				
+            ;;
+	    "ExpressVPN")
+            echo "Running ExpressVPN"
+				wget -O ExpressVPN.sh https://raw.githubusercontent.com/liamkenyon/OpenVPN/master/ExpressVPN/ExpressVPN.sh && sed -i "s/uuuu/$USERNAME/g" ExpressVPN.sh && sed -i "s/pppp/$PASSWORD/g" ExpressVPN.sh && chmod +x ExpressVPN.sh && ./ExpressVPN.sh				
             ;;
         "Quit")
             break
