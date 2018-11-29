@@ -38,7 +38,7 @@ opkg --force-reinstall --force-overwrite install openvpn &> /dev/null 2>&1
 echo "Downloading OpenVPN Configs"
 echo $LINE
 wget -O /tmp/auth.txt "https://raw.githubusercontent.com/INUI-Dev/OpenVPN/master/NordVPN/password.conf" &> /dev/null 2>&1
-wget -O /hdd/PIA_VPN/ExpressVPN.zip "https://raw.githubusercontent.com/INUI-Dev/OpenVPN/master/ExpressVPN/expressvpn.zip" &> /dev/null 2>&1
+wget -O /hdd/ExpressVPN/ExpressVPN.zip "https://raw.githubusercontent.com/INUI-Dev/OpenVPN/master/ExpressVPN/expressvpn.zip" &> /dev/null 2>&1
 
 #Configure VPN files
 echo "Configuring OpenVPN"
