@@ -89,7 +89,7 @@ rm -f /hdd/ExpressVPN/ca.rsa.2048.crt &> /dev/null 2>&1
 rm -f /hdd/ExpressVPN/crl.rsa.2048.pem &> /dev/null 2>&1
 rm -f /hdd/ExpressVPN/auth.txt &> /dev/null 2>&1
 rm -f /tmp/auth.txt &> /dev/null 2>&1
-rm -f /home/root/PIA.sh &> /dev/null 2>&1
+rm -f /home/root/ExpressVPN.sh &> /dev/null 2>&1
 rm -f /home/root/VPN.sh &> /dev/null 2>&1
 echo "OpenVPN Configs Downloaded Please Start OpenVPN"
 exit
